@@ -1,2 +1,4 @@
 openai
-nltk
+streamlit
+json
+pandas
