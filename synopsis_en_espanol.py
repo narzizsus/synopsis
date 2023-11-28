@@ -19,13 +19,11 @@ prompt = """Act as an AI movie director in Spanish. You will receive a piece of 
 Don't say anything at first. Wait for the user to say something.
         """    
 
-
 st.title('Scene Extraction')
 st.markdown('Input the synopsis that you want to extract. \n\
             The AI will give you scenes and C2 vocabularies.')
 
 user_input = st.text_area("Enter synopsis:", "Your text here")
-
 
 # submit button after text input
 if st.button('Submit'):
